@@ -1,0 +1,15 @@
+#!/bin/bash
+
+date=`date +"%Y_%a_%b_%d_%H%M%P"`
+
+url=http://listen.radionomy.com/indie-rock-radio
+
+output_filename=indie.${date}
+
+duration=60
+
+output_dir=/home/nego/dejavu/mp3
+
+cd $output_dir
+
+streamripper $url -d $output_dir -l $duration -a $output_filename -o always -s

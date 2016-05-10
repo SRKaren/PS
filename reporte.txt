@@ -1,0 +1,1 @@
+pista objetivo /home/nego/Escritorio/mp3/2016_mie_abr_27_1801.mp3 cancion reconocida RADIO NMP VERSION TASA BAJA LAURA-1 resultado: id:1 confianza: 1 inicio firma:1.70667 alineacion:20  
